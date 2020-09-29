@@ -15,7 +15,7 @@ function createWindow(){
     // load the index.html of the app
     mainWindow.loadFile('index.html')
     // Open the DevTools
-    // mainWindow.webContents.openDevTools()
+    mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when electron has finished 

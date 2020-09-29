@@ -19,5 +19,8 @@
   "homepage": "https://github.com/SarangChougs/blockly-roboarm-software#readme",
   "devDependencies": {
     "electron": "^10.1.3"
+  },
+  "dependencies": {
+    "blockly": "^3.20200924.1"
   }
 }

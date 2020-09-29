@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link blockly.js -->
+    <script src="../node_modules/blockly/blockly.min.js"></script>
+    <!-- link index.js -->
+    <script src="./js/index.js"></script>
+    <title>Blockly Workspace</title>
+</head>
+
+<body>
+    <!-- navigation link to home page -->
+    <nav>
+        <a href="../index.html">Home page</a>
+    </nav>
+
+    <!-- area for blockly workspace -->
+    <div id="blocklyDiv" style="height: 600px; width: 100%;"></div>
+
+    <!-- blockly toolbar xml -->
+    <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+        <block type="controls_ifelse"></block>
+        <block type="logic_compare"></block>
+        <block type="logic_operation"></block>
+        <block type="controls_repeat_ext">
+            <value name="TIMES">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="logic_operation"></block>
+        <block type="logic_negate"></block>
+        <block type="logic_boolean"></block>
+        <block type="logic_null" disabled="true"></block>
+        <block type="logic_ternary"></block>
+        <block type="text_charAt">
+            <value name="VALUE">
+                <block type="variables_get">
+                    <field name="VAR">text</field>
+                </block>
+            </value>
+        </block>
+    </xml>
+
+    <footer>
+        <h5>This is blockly-workspace</h5>
+    </footer>
+</body>
+</html>
