@@ -1,0 +1,23 @@
+{
+  "name": "blockly-roboarm-software",
+  "version": "1.0.0",
+  "description": "Desktop app for roboarm project",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarangChougs/blockly-roboarm-software.git"
+  },
+  "author": "Rlabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarangChougs/blockly-roboarm-software/issues"
+  },
+  "homepage": "https://github.com/SarangChougs/blockly-roboarm-software#readme",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
